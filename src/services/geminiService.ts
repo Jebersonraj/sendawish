@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { Occasion, OccasionLabels } from "../../types.ts";
+import { Occasion, OccasionLabels } from "@/types.ts";
 
 const apiKey = process.env.API_KEY || '';
 const ai = apiKey ? new GoogleGenAI({ apiKey }) : null;
