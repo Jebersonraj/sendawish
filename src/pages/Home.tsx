@@ -89,7 +89,6 @@ const Home: React.FC = () => {
                                 </div>
                             </motion.div>
 
-                            {/* Recipient */}
                             <motion.div whileHover={{scale: 1.02}} className="group">
                                 <label className="block text-sm font-bold text-gray-700 mb-1 ml-1">
                                     Who is the victim? (Recipient)
